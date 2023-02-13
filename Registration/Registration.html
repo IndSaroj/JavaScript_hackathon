@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./Registration.css">
+   
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <nav class="navbar bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="https://www.natwestgroup.com/content/dam/natwestgroup_com/natwestgroup/images/new-images-feb-2021/445x275/image.dim.180.natwest.png" alt="Logo" width="300" height="100" class="d-inline-block align-text-top">
+                
+              </a>
+            </div>
+          </nav>
+    </div>
+    <div class="container">
+        <div class="main">
+        <h2>Enter details to access mobile banking</h2>
+
+        <form id="form_id" method="post" name="myform">
+
+        <label>Enter email address:</label><br> <span id="email"></span>
+        <input type="text" placeholder="Email address" name="email id" id="useremail" autocomplete="off"/>
+          
+        <label>Enter Full Name:</label> <br> <span id="name"></span>
+        <input type="text" placeholder="Full name" name="user" id="fullname" autocomplete="off"/>
+
+        <label>Enter your complete address with PIN code :</label><br> <span id="enteraddress"></span>
+        <input type="text" placeholder="Complete address" name="address" id="useraddress" autocomplete="off"/>
+        
+        <label>Enter Your 11 digit account number:</label><br> <span id="acno"></span>
+        <input type="number" placeholder="Account number" name="account no" id="useraccount" autocomplete="off"/>
+        
+        <label>Enter Your 10 digit mobile number :</label><br> <span id="mbnumber"></span>
+        <input type="number" placeholder="Mobile number" name="mobile no" id="mobile" autocomplete="off"/>
+
+        <label>Enter Your password:</label><br> <span id="pswd"></span>
+        <input type="text" placeholder="Password" name="password" id="userpassword" autocomplete="off"/>
+        
+
+        <input type="button" value="Create account"  onclick="addItem()"/>
+
+        <span><b class="note"> Already registered? <a class="login" href="http://127.0.0.1:5500/Login/Login.html">Login here</a>. 
+        </div>
+
+        </div>
+  </div>
+ 
+  
+  
+  <script src="./Registration.js"></script>
+  
+
+</body>
+</html>

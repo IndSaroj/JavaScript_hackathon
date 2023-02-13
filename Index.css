@@ -1,0 +1,18 @@
+
+
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6xWOOZlw-kNmXwq0Fie8849IoUygHNz80jfb9WRf1N2LyJzyas27HhDRzcEAoeDFZCw&usqp=CAU);
+}
+
+img{
+    height: 60vh;
+    width: 15vw;
+}
+
+
+.Image{
+    background-color: beige;
+    box-shadow: 5px 5px 25px red;
+}
+
